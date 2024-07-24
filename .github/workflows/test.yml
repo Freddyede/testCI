@@ -25,7 +25,7 @@ jobs:
     - run: npm run build --if-present
     - run: npm test
   testFinal:
-    needs: [unit-testing_nodeJs, func-testing_nodeJs]
+    needs: [test]
 
     runs-on: ubuntu-latest
 
