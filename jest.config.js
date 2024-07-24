@@ -1,5 +1,5 @@
 module.exports = {
 	  preset: 'ts-jest',
-	  module: 'CommonJS',
+	  module: 'module',
 	  testEnvironment: 'node',
 };
