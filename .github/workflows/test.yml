@@ -7,13 +7,10 @@ on:
     branches: [ main ]
 
 jobs:
-    environnement:
+    test:
         strategy:
             matrix:
                 node-version: [ 15.x, 20.x ]
-
-    test:
-        needs: [environnement]
         runs-on: ubuntu-latest
 
         steps:
